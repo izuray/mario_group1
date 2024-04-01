@@ -115,5 +115,4 @@ public class Player : MonoBehaviour
         activeRenderer.spriteRenderer.color = Color.white;
         starpower = false;
     }
-
 }
