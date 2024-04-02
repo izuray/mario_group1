@@ -29,6 +29,7 @@ public class FlagPole : MonoBehaviour
         yield return MoveTo(player, castle.position);
 
         player.gameObject.SetActive(false);
+        nextStage += 3;
 
         yield return new WaitForSeconds(2f);
 
