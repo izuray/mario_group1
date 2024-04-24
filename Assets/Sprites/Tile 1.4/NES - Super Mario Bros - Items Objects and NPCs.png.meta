@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 962ecf1d2ad59894ab6396a23975d857
+guid: 2a7c7db3f442fa94e93c584034174790
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NES - Super Mario Bros - Mario & Luigi (1)_0
+      name: NES - Super Mario Bros - Items Objects and NPCs_0
       rect:
         serializedVersion: 2
-        x: 172
-        y: 351
-        width: 8
-        height: 9
+        x: 80
+        y: 452
+        width: 32
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,71 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fe7a463a1c7c4b439513d60e810dc79
-      internalID: 1242914862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Super Mario Bros - Mario & Luigi (1)_1
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 351
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90fb05ee07286904daf42d100658d6f0
-      internalID: 1877552540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Super Mario Bros - Mario & Luigi (1)_2
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 351
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26d83531e9bf0084cb03230a87320395
-      internalID: 664700400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Super Mario Bros - Mario & Luigi (1)_3
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 351
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26c3f62905b5702439d39e8bcff9fe2d
-      internalID: -71099903
+      spriteID: e948be1b0749ebd439d397ba55b34c2d
+      internalID: 955598940
       vertices: []
       indices: 
       edges: []
@@ -191,10 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NES - Super Mario Bros - Mario & Luigi (1)_0: 1242914862
-      NES - Super Mario Bros - Mario & Luigi (1)_1: 1877552540
-      NES - Super Mario Bros - Mario & Luigi (1)_2: 664700400
-      NES - Super Mario Bros - Mario & Luigi (1)_3: -71099903
+      NES - Super Mario Bros - Items Objects and NPCs_0: 955598940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
