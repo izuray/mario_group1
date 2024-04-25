@@ -37,8 +37,9 @@ public class BossFiFai : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jump);
             yield return new WaitForSeconds(0.2f);
             GameObject fire2 = Instantiate(Fire, FirePosition.transform.position, Quaternion.identity);
-            yield return new WaitForSeconds(15);
+            yield return new WaitForSeconds(6);
             Destroy(fire1);
+            yield return new WaitForSeconds(4);
             Destroy(fire2);
         }
     }
