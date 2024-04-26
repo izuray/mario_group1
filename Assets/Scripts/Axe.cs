@@ -9,6 +9,7 @@ public class Axe : MonoBehaviour
     public Transform grounding;
     public Transform nextToPrincess;
     public GameObject[] bridge;
+    public GameObject img;
     public float speed = 6f;
     public int nextWorld = 1;
     public int nextStage = 1;
@@ -31,6 +32,8 @@ public class Axe : MonoBehaviour
         yield return MoveTo(player, wall.position);
         yield return MoveTo(player, grounding.position);
         yield return MoveTo(player, nextToPrincess.position);
+        yield return new WaitForSeconds(.5f);
+        img.SetActive(true);
     }
 
     private IEnumerator MoveTo(Transform subject, Vector3 position)
