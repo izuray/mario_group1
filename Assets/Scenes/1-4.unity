@@ -11956,7 +11956,7 @@ MonoBehaviour:
   Fire: {fileID: 2903507618171952677, guid: dab738c0299607139b0e6ea4832583c5, type: 3}
   FirePosition: {fileID: 1847299252}
   speed: 0.11
-  jump: 35
+  jump: 10086
 --- !u!61 &915762409
 BoxCollider2D:
   m_ObjectHideFlags: 0
